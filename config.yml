@@ -1,0 +1,50 @@
+data:
+
+  config:
+    
+    ui-choices:
+     theme: "checkout" # normal, checkout[looks like checkout redeemer dont tell me a 'skid' u guys are the one who told me to add this], light, dark
+
+    licensing:
+      license-key: "" # put your license key here | dont put anything cuz its leaked now :skull:
+    
+    important:
+      vcc-uses: 4 # vcc uses
+      promotype: "1m" # 1m/3m!
+      auth-retry: 1 # auth retries
+      sleep-after-redeem: "20" # in seconds
+      remove-vccs: true # removes vccs after redeeming if true else skip
+
+    webhook-support:
+      use-webhook: false # if false no webhook requirement
+      url: "https://discordapp.com/api/webhooks/1221047404367839342/-pzZEthGWqblSvO5L1ZnuD76RYDk63MYASquUxHtTDF42dDFOdacCZ5M8CWYUDC1du5e" # webhook url here
+
+    custom-billing:
+      use_custom_bill: True
+      country: "ES" # 2 letters | GB = united kingdom
+      address_2: ""
+      state: "Spain" # usually 2 letters
+      city: "Riba-roja de Túria" # city here
+      address: "Avenida Puerto de Alicante 6" # address here
+      postal-code: "46394" # postal code here
+      card-name: "Gay" # name on card
+    
+    proxy-support:
+      use-proxies: false
+      type: "rotating" # only rotating supported!
+      proxy: "" # put rotating proxy here
+
+    logger-type:
+      use-bright-colors: true
+      logger-type: "1" # logger type 2 in next version
+
+    custom-branding:
+      use-custom-branding: false
+      display-name: "" # display name here
+
+    title:
+      update-console-title: false # if true shows in cmd title like hits[], fails[]
+
+    inbuilt-promo-gen:
+      use-promo-gen: false # buy premium to experience it!
+      type: "opera"
